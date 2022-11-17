@@ -12,20 +12,21 @@
     <title>Miguel Bonales' Portfolio</title>
 </head>
 <body>
-    <header>
+    <header id="myHeader">
     <h1>Miguel Bonales' Portfolio</h1>
     <nav id="topBarHeader">
-        <p>Who am I?</p>
-        <p>My Projects</p>
-        <p>My CV</p>
-        <p>Contact me!</p>
+      <p><a class="headerClassAnchor" href="#WhoAmI">Who am I?</a></p>
+      <p><a class="headerClassAnchor"  href="#MyProjects">My Projects</a></p>
+      <p><a class="headerClassAnchor"  href="#MyCV">My CV</a></p>
+      <p><a class="headerClassAnchor"  href="#ContactMe">Contact me!</a></p>
     </nav>
+    </header>
 
 
     <section id="WhoAmI">
         <h3>Who the F#@k is Miguel Bonales?</h3>
         <div style="display: flex;">
-            <img id="PhotoMiguelCartoon" src="miguelb_cartoon.jpg" alt="Photo of Miguel Bonales" width="300px" height="300px">
+            <img id="PhotoMiguelCartoon" src="images/miguelb_cartoon.jpg" alt="Photo of Miguel Bonales" width="300px" height="300px">
             <div id="WhoAmIDivText">
                 <p>This random picture that my friend sent me by Slack is pretty close to my real face, but <b>who do I really am?</b></p>
                 <p>I'm a product designer, specialized in design systems, who a few years ago worked for the dark side as a developer of mobile applications (mostly Android apps). </p>
@@ -38,44 +39,71 @@
         <h3>My Projects</h3>
         <div style="display: flex;">
             <div class="card">
-                <img class="cardImage" src="figma-logo.png" alt="Avatar">
+              <a target="_blank" href="https://www.figma.com/proto/TNH8P26KKgVHZZgRi4RbgO/%5B-P3-%5D-Miguel---Redesigning-YAZIO-%7C-Design-File?page-id=116%3A21&node-id=661%3A77&viewport=-123%2C450%2C0.33&scaling=scale-down&starting-point-node-id=661%3A134&show-proto-sidebar=1">
+                <img class="cardImage" src="images/figma-logo.png" alt="Avatar">
                 <div class="container">
                   <h4><b>Project 1</b></h4> 
                   <p>Figma project</p> 
                 </div>
-              </div>
+              </a>
+            </div>
 
-              <div class="card">
-                <img class="cardImage" src="figma-logo.png" alt="Avatar">
+            <div class="card">
+              <a target="_blank" href="https://www.figma.com/proto/TNH8P26KKgVHZZgRi4RbgO/%5B-P3-%5D-Miguel---Redesigning-YAZIO-%7C-Design-File?page-id=116%3A21&node-id=661%3A77&viewport=-123%2C450%2C0.33&scaling=scale-down&starting-point-node-id=661%3A134&show-proto-sidebar=1">
+                <img class="cardImage" src="images/figma-logo.png" alt="Avatar">
                 <div class="container">
                   <h4><b>Project 1</b></h4> 
                   <p>Figma project</p> 
                 </div>
-              </div>
+              </a>
+            </div>
 
-              <div class="card">
-                <img class="cardImage" src="figma-logo.png" alt="Avatar">
-                <div class="container">
-                  <h4><b>Project 1</b></h4> 
-                  <p>Figma project</p> 
-                </div>
+            <div class="card">
+              <a target="_blank" href="https://www.figma.com/proto/TNH8P26KKgVHZZgRi4RbgO/%5B-P3-%5D-Miguel---Redesigning-YAZIO-%7C-Design-File?page-id=116%3A21&node-id=661%3A77&viewport=-123%2C450%2C0.33&scaling=scale-down&starting-point-node-id=661%3A134&show-proto-sidebar=1">
+                <img class="cardImage" src="images/figma-logo.png" alt="Avatar">
+              <div class="container">
+                <h4><b>Project 1</b></h4> 
+                <p>Figma project</p> 
               </div>
+              </a>
+            </div>
 
-              <div class="card">
-                <img class="cardImage" src="figma-logo.png" alt="Avatar">
-                <div class="container">
-                  <h4><b>Project 1</b></h4> 
-                  <p>Figma project</p> 
-                </div>
+            <div class="card">
+              <a target="_blank" href="https://www.figma.com/proto/TNH8P26KKgVHZZgRi4RbgO/%5B-P3-%5D-Miguel---Redesigning-YAZIO-%7C-Design-File?page-id=116%3A21&node-id=661%3A77&viewport=-123%2C450%2C0.33&scaling=scale-down&starting-point-node-id=661%3A134&show-proto-sidebar=1">
+              <img class="cardImage" src="images/figma-logo.png" alt="Avatar">
+              <div class="container">
+                <h4><b>Project 1</b></h4> 
+                <p>Figma project</p> 
               </div>
+              </a>
+            </div>
         </div>
     </section>
     <section id="MyCV">
         <h3>My CV</h3>
+          <p>
+            If Bill Gates hires lazy people because of his way of finding the easiest and quickest solution, I am one of them. 
+          </p>
+          <p>
+            You can see my background on <a target="_blank" href="https://www.linkedin.com/in/miguel-bonales-arenas/?locale=en_US">my LinkedIn profile</a> or download it from <a href="documents/Miguel_Bonales Arenas_Resume.pdf" download="">this link</a>.
+          </p>
 
     </section>
     <section id="ContactMe">
         <h3>Contact me!</h3>
+          <form action="mailto:miguelbonales20@gmail.com"
+          method="POST"
+          enctype="multipart/form-data"
+          name="EmailForm">
+              Name:<br>
+              <input type="text" size="19" name="Contact-Name"><br><br>
+              Email:<br>
+              <input type="email" name="Contact-Email"><br><br> 
+              Message:<br> 
+              <textarea name="Contact-Message" rows="6″ cols="20″ style="resize:none">
+              </textarea><br><br> 
+              <button type="submit" value="Submit" style="font-size:14px; background-color:#D5A749; color:#000; font-weight:bold; padding:10px 35px; margin: 5px 0 0 0;">SEND</button>
+          </form> 
 
     </section>
     

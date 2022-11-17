@@ -2,10 +2,51 @@ body{
     background-color: #000;
     color: aliceblue;
     font-family: "Montserrat", monospace;
+    padding-top: 133px;
 }
 
 h1{
     text-align: center;
+}
+
+h3{
+    margin-top: -150px;
+    padding-top: 150px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffc857;
+}
+
+.headerClassAnchor{
+    color: aliceblue;
+}
+
+.headerClassAnchor:hover{
+ opacity: 90%;}
+
+form{
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+form > input{
+    min-height: 32px;;
+}
+
+form > *{
+    width: 100%;
+    min-width: 360px;
+    border-radius: 4px;
+}
+
+#myHeader{
+    position:fixed;
+    top:0;
+    background-color: #000;
+    width: 100%;
+    z-index: 100;
 }
 
 #topBarHeader{
@@ -23,7 +64,7 @@ h1{
 }
 
 #topBarHeader p:hover{
-    background-color: #111;
+    opacity: 0.95;
     color: #ccc;
     cursor: default;
 }
@@ -46,9 +87,15 @@ section{
     margin-inline: 10px;
     margin-left: 0px;
   }
+
+  .card a{
+    text-decoration: none;
+    color: aliceblue;
+  }
   
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    opacity: 0.90;
   }
 
   img.cardImage{
