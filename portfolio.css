@@ -1,3 +1,5 @@
+/*GENERAL*/
+
 html{
     scroll-behavior: smooth;
 }
@@ -8,6 +10,11 @@ body{
     font-family: "Montserrat", monospace;
     margin: 0px;
     padding: 133px 0px 0px 0px;
+}
+
+section{
+    margin-top: 2rem;;
+    margin-inline: 2.5rem;
 }
 
 h1{
@@ -24,26 +31,29 @@ a{
     color: #ffc857;
 }
 
-.headerClassAnchor{
-    color: aliceblue;
-}
-
-.headerClassAnchor:hover{
- opacity: 90%;}
-
 form{
     width: 30%;
     margin-bottom: 40px;
-}
-
-form > input{
-    min-height: 32px;;
 }
 
 form > *{
     width: 100%;
     min-width: 360px;
     border-radius: 4px;
+}
+
+form > input{
+    min-height: 32px;;
+}
+
+/* HEADER */
+
+.headerClassAnchor{
+    color: aliceblue;
+}
+
+.headerClassAnchor:hover{
+ opacity: 90%;
 }
 
 #myHeader{
@@ -74,10 +84,7 @@ form > *{
     background-color: #111;
 }
 
-section{
-    margin-top: 2rem;;
-    margin-inline: 2.5rem;
-}
+/* WHO I AM */
 
 #WhoAmIDiv{
    overflow: hidden ;
@@ -94,6 +101,8 @@ section{
     height: 300px;
     margin: 0px 16px 8px 0px;
 }
+
+/* MY PROJECTS */
 
 #cardContainer{
     display: flex;
@@ -129,6 +138,21 @@ section{
   
   .container {
     padding: 2px 16px;
+  }
+
+  /* FORM */
+  #buttonForm{
+    font-size:14px; 
+    background-color:#D5A749; 
+    color:#000; 
+    font-weight: bold; 
+    padding:10px 35px; 
+    margin: 5px 0 0 0;
+  }
+
+  #buttonForm:hover{
+    opacity: 90%;
+    cursor: pointer;
   }
 
   /* IF WE WANTED TO DO THE RESPONSIVE:*/
